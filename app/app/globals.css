@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.f-head { font-family: 'Archivo', sans-serif; letter-spacing: -0.02em; }
+.f-body { font-family: 'Inter', sans-serif; }
+.f-mono { font-family: 'IBM Plex Mono', monospace; }
+.pill:hover { filter: brightness(0.92); transform: translateY(-1px); }
+.stat-card:hover, .step-card:hover { border-color: #C6FF4D; }
+input[type=file] { display: none; }
+
+body {
+  margin: 0;
+}
